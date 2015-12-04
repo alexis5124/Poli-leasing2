@@ -1,0 +1,14 @@
+//algoritmo para calcular el salario de un empleado.
+real venta1, venta2, venta3,sbasico, stotal
+inicio
+	escriba "ingrese el salario basico:"
+	lea sbasico
+	escriba "ingrese la venta 1:"
+	lea venta1
+	escriba "ingrese la venta 2:"
+	lea venta2
+	escriba "ingrese la venta 3:"
+	lea venta3
+	stotal<- (venta1+venta2+venta3)*0.10+sbasico
+    escriba "el salario total es:$",stotal
+fin
